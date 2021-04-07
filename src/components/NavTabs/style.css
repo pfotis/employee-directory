@@ -1,4 +1,4 @@
-ul {
+.tabs {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,12 +6,12 @@ ul {
     background-color: #333333;
   }
   
-  li {
+.tabs li {
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 32px;
+    padding: 16px;
     text-decoration: none;
   }
   

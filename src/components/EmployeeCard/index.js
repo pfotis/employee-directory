@@ -1,20 +1,22 @@
 import React from "react";
+import "./style.css";
 
 function EmployeeCard(props) {
     return (
       <>
-      <h3>Card</h3>
-        <div className="card">
-          <div className="img-container">
-          </div>
           <div className="content">
-            <ul>
+            <ul className="card">
               <li>
-                <strong>Name:</strong> {props.first}
+                <img src={props.img}></img>
+              </li>
+              <li>
+                {props.first}
+              </li>
+              <li>
+                {props.last}
               </li>
             </ul>
           </div>
-        </div>
         </>
       );
 }

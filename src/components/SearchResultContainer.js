@@ -42,7 +42,11 @@ class SearchResultContainer extends Component {
         <NavTabs />
         {
           this.state.results.map(employee => {
-            return (<EmployeeCard first={employee.name.first} />);
+            return (<EmployeeCard 
+              img = {employee.picture.medium}
+              first = {employee.name.first}
+              last = {employee.name.last}
+            />);
           })}
       </div>
     );
