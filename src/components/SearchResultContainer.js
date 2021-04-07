@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import EmployeeCard from "./EmployeeCard";
+import EmployeeCard from "./EmployeeCard/index";
+import NavTabs from "./NavTabs/index";
 import API from "../utils/API";
 
 class SearchResultContainer extends Component {
@@ -38,6 +39,7 @@ class SearchResultContainer extends Component {
     return (
       <div>
         <h1>employees</h1>
+        <NavTabs />
         {
           this.state.results.map(employee => {
             return (<EmployeeCard first={employee.name.first} />);
