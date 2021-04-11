@@ -14,17 +14,30 @@ class Main extends Component {
   searchEmployees = () => {
     API.search()
       .then(res => {
-        this.setState({ results: res.data.results });
+        let tempData = res.data.results;
+        let tempArray = [];
+        for (let i=0; i< tempData.length; i++){
+          let tempObj ={
+            id : (i+1),
+            name : `${tempData[i].name.first} ${tempData[i].name.last}`,
+            email: tempData[i].email,
+            phone: tempData[i].cell,
+            city: tempData[i].location.city,
+            state: tempData[i].location.state
+          };
+          tempArray.push(tempObj);
+        }
+        this.setState({ results: tempArray });
       })
       .catch(err => console.log(err));
   };
 
   render() {
-    //console.log(this.state.results);
+    console.log(this.state.results);
     return (
       <div>
         <h2>Employee Table</h2>
-        <EmployeeCard employees={this.state.results} />
+        <EmployeeCard  employees={this.state.results} />
       </div>
     );
   }
