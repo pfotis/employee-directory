@@ -12,7 +12,7 @@
 
 [Repository link](https://github.com/pfotis/employee-directory)
 
-[Heroku link](https://pfotis.github.io/employee-directory)
+[website link](https://pfotis.github.io/employee-directory)
 
 ## Description
 
