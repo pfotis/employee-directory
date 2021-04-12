@@ -1,6 +1,6 @@
 import React from "react";
 import { MDBDataTable } from "mdbreact";
-import "./employeecard.css";
+
 
 function EmployeeCard(props) {
   const data = {

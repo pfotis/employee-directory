@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# employee-directory
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* [links](#links)
+* [Description](#description)
+* [Built With](#builtwith)
+* [Installation](#installation)
+* [Screenshots](#screenshots)
+* [Questions](#questions)
 
-## Available Scripts
 
-In the project directory, you can run:
+## links
 
-### `npm start`
+[Repository link](https://github.com/pfotis/employee-directory)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Heroku link](https://pfotis.github.io/employee-directory)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Description
 
-### `npm test`
+    At this application the user could sort by id, name, email, phone , city or state and the user could 
+    search for any employee basic on the id, name, email, phone , city or state.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    The data we get from random API.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    React.js
+    HTML
+    Bootstrap
+    CSS
+    Javascript
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+    npx create-react-app employee-directory
+    npm install axios
+    npm install --save mdbreact
+    npm install bootstrap-css-only
+    npm i --save @fortawesome/fontawesome-free
+    npm install --save gh-pages
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Screenshots
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    With the following pictures the user could see the outfit of this project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<img src="./public/assets/img/readme/first_impress.png" alt="first_impress">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    sort by name
 
-## Learn More
+<img src="./public/assets/img/readme/by_name.png" alt="sort by name">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    sort by email
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<img src="./public/assets/img/readme/by_email.png" alt="sort by email">
 
-### Code Splitting
+    sort by city
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<img src="./public/assets/img/readme/by_city.png" alt="sort by city">
 
-### Analyzing the Bundle Size
+    sort by state
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<img src="./public/assets/img/readme/by_state.png" alt="sort by state">
 
-### Making a Progressive Web App
+    search by name
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img src="./public/assets/img/readme/search_name.png" alt="search by name">
 
-### Advanced Configuration
+    search by city
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<img src="./public/assets/img/readme/search_city.png" alt="search by city">
 
-### Deployment
+    search by state
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<img src="./public/assets/img/readme/search_state.png" alt="search by state">
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Questions
+
+    For any questions about this repository, please contact me at pfotis@gmail.com
+    View my work in GitHub pfotis(https://github.com/pfotis)

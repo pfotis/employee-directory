@@ -33,7 +33,6 @@ class Main extends Component {
   };
 
   render() {
-    console.log(this.state.results);
     return (
       <div>
         <h2>Employee Table</h2>
